@@ -1,0 +1,108 @@
+body{
+    margin: 0;
+    font-size: 14px;
+    color: #9d9d9d;
+    line-height: 1.6;
+    border: none;
+
+}
+h1,h2,h3,h4,h5,h6{
+    margin: 0;
+}
+* , *:before,*:after{
+    box-sizing: border-box;
+}
+/*Container*/
+.container{
+    width: 100%;
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 0;
+    background-color: #000000;
+
+
+}
+/*Header*/
+.header{
+    margin: 0;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index:1000;
+    background-color: black ;
+
+
+
+}
+.header__inner {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+
+
+}
+.header__logo{
+    margin-right: 50px;
+    padding: 0;
+}
+.header__logo__link{
+    display: block;
+}
+/*nav*/
+.nav__outer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+.nav{
+    width: 400px;
+    display: flex;
+    justify-content: space-between;
+}
+.nav__upper{
+    display: flex;
+    justify-content: space-around;
+}
+.nav__lower{
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav__link{
+    color: #71634b;
+    font-size: 19px;
+    text-decoration: none;
+    text-transform: uppercase;
+    display: inline-block;
+    margin:0 20px;
+}
+/*Sign*/
+.sign{
+    margin: 40px ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+
+}
+.sign__in{
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.004);
+    color: #71634b;
+    font-size: 15px;
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align: center;
+}
+.enter{
+    color: #71634b;
+    font-size: 15px;
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align: center;
+}
