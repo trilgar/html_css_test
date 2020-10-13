@@ -16,9 +16,10 @@ h1,h2,h3,h4,h5,h6{
 .container{
     width: 100%;
     max-width: 1400px;
-    margin: 0 auto;
     padding: 0;
     background-color: #000000;
+    display: block;
+    margin: 0 auto ;
 
 
 }
@@ -76,15 +77,20 @@ h1,h2,h3,h4,h5,h6{
 
 .nav__link{
     color: #71634b;
-    font-size: 19px;
+    font-size: 18px;
     text-decoration: none;
     text-transform: uppercase;
     display: inline-block;
     margin:0 20px;
 }
+.nav__link:hover{
+    background-color:#9a8866;
+    color: black;
+    border-radius: 4px;
+}
 /*Sign*/
 .sign{
-    margin: 40px ;
+    margin-left: 40px ;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -92,12 +98,13 @@ h1,h2,h3,h4,h5,h6{
 
 }
 .sign__in{
-    text-shadow: 1px 1px 1px rgba(0,0,0,0.004);
     color: #71634b;
     font-size: 15px;
     text-decoration: none;
     text-transform: uppercase;
     text-align: center;
+
+
 }
 .enter{
     color: #71634b;
@@ -105,4 +112,37 @@ h1,h2,h3,h4,h5,h6{
     text-decoration: none;
     text-transform: uppercase;
     text-align: center;
+}
+/*Bslogo Header*/
+.bslogo{
+    margin-left: 60px;
+    opacity: .5;
+    transition: opacity 0.4s linear;
+}
+.bslogo:hover{
+    opacity: 1;
+}
+.text_reg{
+    text-shadow:0 0 30px #c3af2a;
+    color: #c35229;
+
+}
+/*Main body (recension)*/
+.recension{
+    width: 100%;
+    height: 100vh;
+    background: url("../images/recension.jpg")  no-repeat center  ;
+    background-size: cover;
+    margin-top: 115px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.recension_column_left{
+    width: 20%;
+    margin-right: 450px;
+}
+.recension_column_right{
+    margin-left: 450px;
+    width: 20%;
 }
